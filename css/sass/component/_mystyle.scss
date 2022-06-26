@@ -1,0 +1,82 @@
+// start var
+
+// $min-color:#FF6E41;
+$main-color:#171D5B;
+$whiteColor:#fff;
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;   
+    &:focus{
+        outline: 0;
+    }
+}
+
+
+
+p {
+    margin: 0;
+
+}
+
+ul {
+    list-style: none;
+}
+
+ol,
+ul,
+h1,
+h2,
+h3,
+h5,
+h4,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none !important;
+}
+.container {
+  
+}
+body{
+  font-family: 'HelveticaNeueLT';
+    direction: rtl;
+    text-align: right;
+  
+}
+html{
+    
+}
+
+
+
+ /* width */
+::-webkit-scrollbar {
+    width: 7px;
+    border-radius: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $main-color; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  @keyframes mymove1 {
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(40px);}
+    100% {transform: translateY(0px);}
+  }

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <filter id="Rectangle_123" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.169" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="kap" transform="translate(-203 -5)">
+    <g data-type="innerShadowGroup">
+      <rect id="Rectangle_123-2" data-name="Rectangle 123" width="48" height="48" rx="24" transform="translate(203 5)" fill="#dc5224"/>
+      <g transform="matrix(1, 0, 0, 1, 203, 5)" filter="url(#Rectangle_123)">
+        <rect id="Rectangle_123-3" data-name="Rectangle 123" width="48" height="48" rx="24" fill="#fff"/>
+      </g>
+    </g>
+    <path id="Icon_material-gavel" data-name="Icon material-gavel" d="M1.5,28.859H17.915V31.6H1.5ZM7.307,11.171,11.178,7.3,30.521,26.65l-3.869,3.869ZM16.981,1.5l7.739,7.737-3.871,3.871L13.114,5.366ZM5.364,13.107,13.1,20.846,9.234,24.714,1.5,16.976Z" transform="translate(212.773 9.289)" fill="#fff"/>
+  </g>
+</svg>
